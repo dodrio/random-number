@@ -11,13 +11,13 @@
 ## Install
 
 ```
-$ npm install random-number
+$ npm install @m31271n/random-number
 ```
 
 ## Usage
 
 ```js
-const randomNumber = require('random-number');
+const randomNumber = require('@m31271n/random-number');
 
 randomNumber({
   min: 1
