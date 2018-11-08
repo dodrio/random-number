@@ -1,6 +1,6 @@
 {
-  "name": "random-number",
-  "version": "0.0.0",
+  "name": "@m31271n/random-number",
+  "version": "1.0.0",
   "description": "Get a number randomly.",
   "license": "MIT",
   "repository": "m31271n/random-number",
@@ -24,7 +24,7 @@
   ],
   "main": "dist/index.js",
   "keywords": [
-    ""
+    "random"
   ],
   "dependencies": {},
   "devDependencies": {

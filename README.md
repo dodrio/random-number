@@ -4,41 +4,40 @@
 [![Dependency Status](https://img.shields.io/david/m31271n/random-number.svg)](#)
 [![DevDependency Status](https://img.shields.io/david/m31271n/random-number.svg)](#)
 [![Travis Build Status](https://img.shields.io/travis/m31271n/random-number.svg)](#)
-[![NPM Downloads](https://img.shields.io/npm/dm/random-number.svg)](#)
-
+[![NPM Downloads](https://img.shields.io/npm/dm/@m31271n/random-number.svg)](#)
 
 > Get a number randomly.
 
 ## Install
 
 ```
-$ npm install random-number
+$ npm install @m31271n/random-number
 ```
 
 ## Usage
 
 ```js
-import randomNumber from 'random-number'
+import randomNumber from '@m31271n/random-number'
 
-randomNumber('unicorns')
-//=> 'unicorns & rainbows'
+randomNumber({
+  min: 1
+  max: 1000,
+  float: true,
+  includeMax: true
+})
 ```
 
 ## API
 
-### randomNumber(input, [options])
+### randomNumber(options)
 
-#### input
+| property     | type    | description                 |
+| ------------ | ------- | --------------------------- |
+| `min`        | Number  | minimum value               |
+| `max`        | Number  | maximum value               |
+| `float`      | Boolean | float or integer            |
+| `includeMax` | Boolean | include maxmum value or not |
 
-Type: `string`
+## License
 
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
+[MIT](https://stack.m31271n.com/licenses/MIT.txt) © [m31271n](https://stack.m31271n.com)
